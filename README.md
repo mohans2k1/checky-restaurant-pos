@@ -296,12 +296,6 @@ All tables include:
 # API key authentication is configured in SecurityConfig
 ```
 
-### Multi-Tenant Settings
-```properties
-app.multi-tenant.enabled=true
-app.multi-tenant.strategy=row-level
-```
-
 ### Database Configuration
 ```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/checky_pos
